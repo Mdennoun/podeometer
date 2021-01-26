@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC7869E25BF3B2D00181173 /* AppDelegate.swift */; };
 		0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786A025BF3B2D00181173 /* SceneDelegate.swift */; };
-		0CC786A325BF3B2D00181173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786A225BF3B2D00181173 /* ViewController.swift */; };
-		0CC786A625BF3B2D00181173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786A425BF3B2D00181173 /* Main.storyboard */; };
 		0CC786A925BF3B2D00181173 /* podometer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786A725BF3B2D00181173 /* podometer.xcdatamodeld */; };
 		0CC786AB25BF3B3200181173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786AA25BF3B3200181173 /* Assets.xcassets */; };
 		0CC786AE25BF3B3200181173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786AC25BF3B3200181173 /* LaunchScreen.storyboard */; };
 		0CC786B925BF3B3200181173 /* podometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786B825BF3B3200181173 /* podometerTests.swift */; };
 		0CC786C425BF3B3200181173 /* podometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786C325BF3B3200181173 /* podometerUITests.swift */; };
+		0CC786D325BF3D9400181173 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786D225BF3D9400181173 /* User.swift */; };
+		0CC786D625BF409D00181173 /* UserFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786D425BF409D00181173 /* UserFormViewController.swift */; };
+		0CC786D725BF409D00181173 /* UserFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786D525BF409D00181173 /* UserFormViewController.xib */; };
+		0CC786DA25BF5ACA00181173 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786D825BF5ACA00181173 /* ProfileViewController.swift */; };
+		0CC786DB25BF5ACA00181173 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786D925BF5ACA00181173 /* ProfileViewController.xib */; };
+		0CC786DD25BF687A00181173 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786DC25BF687A00181173 /* NavViewController.swift */; };
+		0CC786E625BF832400181173 /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786E025BF832400181173 /* StepViewController.swift */; };
+		0CC786E725BF832400181173 /* StepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786E125BF832400181173 /* StepViewController.xib */; };
+		0CC786E825BF832400181173 /* MockStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786E325BF832400181173 /* MockStepViewController.xib */; };
+		0CC786E925BF832400181173 /* MockStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786E425BF832400181173 /* MockStepViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		0CC7869B25BF3B2D00181173 /* podometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC7869E25BF3B2D00181173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CC786A025BF3B2D00181173 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CC786A225BF3B2D00181173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0CC786A525BF3B2D00181173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CC786A825BF3B2D00181173 /* podometer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = podometer.xcdatamodel; sourceTree = "<group>"; };
 		0CC786AA25BF3B3200181173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC786AD25BF3B3200181173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		0CC786BF25BF3B3200181173 /* podometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC786C325BF3B3200181173 /* podometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podometerUITests.swift; sourceTree = "<group>"; };
 		0CC786C525BF3B3200181173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC786D225BF3D9400181173 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0CC786D425BF409D00181173 /* UserFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFormViewController.swift; sourceTree = "<group>"; };
+		0CC786D525BF409D00181173 /* UserFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserFormViewController.xib; sourceTree = "<group>"; };
+		0CC786D825BF5ACA00181173 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0CC786D925BF5ACA00181173 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		0CC786DC25BF687A00181173 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		0CC786E025BF832400181173 /* StepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
+		0CC786E125BF832400181173 /* StepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepViewController.xib; sourceTree = "<group>"; };
+		0CC786E325BF832400181173 /* MockStepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MockStepViewController.xib; sourceTree = "<group>"; };
+		0CC786E425BF832400181173 /* MockStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockStepViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +117,20 @@
 		0CC7869D25BF3B2D00181173 /* podometer */ = {
 			isa = PBXGroup;
 			children = (
+				0CC786DE25BF832300181173 /* Mohamed */,
+				0CC786E225BF832400181173 /* Norman */,
+				0CC786DC25BF687A00181173 /* NavViewController.swift */,
+				0CC786D125BF3D4800181173 /* Model */,
 				0CC7869E25BF3B2D00181173 /* AppDelegate.swift */,
 				0CC786A025BF3B2D00181173 /* SceneDelegate.swift */,
-				0CC786A225BF3B2D00181173 /* ViewController.swift */,
-				0CC786A425BF3B2D00181173 /* Main.storyboard */,
 				0CC786AA25BF3B3200181173 /* Assets.xcassets */,
 				0CC786AC25BF3B3200181173 /* LaunchScreen.storyboard */,
 				0CC786AF25BF3B3200181173 /* Info.plist */,
 				0CC786A725BF3B2D00181173 /* podometer.xcdatamodeld */,
+				0CC786D425BF409D00181173 /* UserFormViewController.swift */,
+				0CC786D525BF409D00181173 /* UserFormViewController.xib */,
+				0CC786D825BF5ACA00181173 /* ProfileViewController.swift */,
+				0CC786D925BF5ACA00181173 /* ProfileViewController.xib */,
 			);
 			path = podometer;
 			sourceTree = "<group>";
@@ -129,6 +151,32 @@
 				0CC786C525BF3B3200181173 /* Info.plist */,
 			);
 			path = podometerUITests;
+			sourceTree = "<group>";
+		};
+		0CC786D125BF3D4800181173 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CC786D225BF3D9400181173 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CC786DE25BF832300181173 /* Mohamed */ = {
+			isa = PBXGroup;
+			children = (
+				0CC786E025BF832400181173 /* StepViewController.swift */,
+				0CC786E125BF832400181173 /* StepViewController.xib */,
+			);
+			path = Mohamed;
+			sourceTree = "<group>";
+		};
+		0CC786E225BF832400181173 /* Norman */ = {
+			isa = PBXGroup;
+			children = (
+				0CC786E325BF832400181173 /* MockStepViewController.xib */,
+				0CC786E425BF832400181173 /* MockStepViewController.swift */,
+			);
+			path = Norman;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CC786AE25BF3B3200181173 /* LaunchScreen.storyboard in Resources */,
+				0CC786E725BF832400181173 /* StepViewController.xib in Resources */,
+				0CC786D725BF409D00181173 /* UserFormViewController.xib in Resources */,
+				0CC786DB25BF5ACA00181173 /* ProfileViewController.xib in Resources */,
+				0CC786E825BF832400181173 /* MockStepViewController.xib in Resources */,
 				0CC786AB25BF3B3200181173 /* Assets.xcassets in Resources */,
-				0CC786A625BF3B2D00181173 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CC786A325BF3B2D00181173 /* ViewController.swift in Sources */,
+				0CC786DA25BF5ACA00181173 /* ProfileViewController.swift in Sources */,
+				0CC786DD25BF687A00181173 /* NavViewController.swift in Sources */,
+				0CC786E925BF832400181173 /* MockStepViewController.swift in Sources */,
 				0CC786A925BF3B2D00181173 /* podometer.xcdatamodeld in Sources */,
 				0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */,
+				0CC786D325BF3D9400181173 /* User.swift in Sources */,
 				0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */,
+				0CC786D625BF409D00181173 /* UserFormViewController.swift in Sources */,
+				0CC786E625BF832400181173 /* StepViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0CC786A425BF3B2D00181173 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CC786A525BF3B2D00181173 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0CC786AC25BF3B3200181173 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA2MYVJ66N;
 				INFOPLIST_FILE = podometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA2MYVJ66N;
 				INFOPLIST_FILE = podometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
