@@ -37,20 +37,21 @@ class StepViewController: UIViewController {
                     let step = data?.numberOfSteps,
                     let floorAsc = data?.floorsAscended,
                     let floorDesc = data?.floorsDescended,
-                    let cadence = data?.currentCadence,
-                    let pace = data?.currentPace,
                     let start = data?.startDate,
                     let end = data?.endDate else {
                         return
                         
                     }
+
+                    let cadence = data?.currentCadence?.description
+                    let pace = data?.currentPace?.description
                     
                     self.distence.text = "Distance : \(dist)"
                     self.step.text = "numberOfSteps : \(step)"
                     self.floorAscended.text = "floorsAscended : \(floorAsc)"
                     self.floorDescended.text = "floorsDescended : \(floorDesc)"
-                    self.curCadence.text = "currentCadence : \(cadence)"
-                    self.curPace.text = "currentPace : \(pace)"
+                    self.curCadence.text = "currentCadence : \(cadence ?? "0")"
+                    self.curPace.text = "currentPace : \(pace ?? "0")"
                     self.startDate.text = "startDate : \(start)"
                     self.endDate.text = "endDate : \(end)"
                 }
@@ -63,20 +64,20 @@ class StepViewController: UIViewController {
             let step = data?.numberOfSteps,
             let floorAsc = data?.floorsAscended,
             let floorDesc = data?.floorsDescended,
-            let cadence = data?.currentCadence,
-            let pace = data?.currentPace,
             let start = data?.startDate,
             let end = data?.endDate else {
                 return
                 
             }
+            let cadence = data?.currentCadence?.debugDescription
+            let pace = data?.currentPace?.description
             
             self.distence.text = "Distance : \(dist)"
             self.step.text = "numberOfSteps : \(step)"
             self.floorAscended.text = "floorsAscended : \(floorAsc)"
             self.floorDescended.text = "floorsDescended : \(floorDesc)"
-            self.curCadence.text = "currentCadence : \(cadence)"
-            self.curPace.text = "currentPace : \(pace)"
+            self.curCadence.text = "currentCadence : \(cadence ?? "-1")"
+            self.curPace.text = "currentPace : \(pace ?? "-1")"
             self.startDate.text = "startDate : \(start)"
             self.endDate.text = "endDate : \(end)"
                     

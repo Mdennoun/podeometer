@@ -34,11 +34,11 @@ class NavViewController: UITabBarController {
         homeController.tabBarItem.image = UIImage(imageLiteralResourceName: "home")
         homeController.tabBarItem.title = "Aujourd'hui"
             
-        let detailController = UINavigationController(rootViewController: UserFormViewController())
+        let detailController = UINavigationController(rootViewController: MapViewController())
         detailController.tabBarItem.image = UIImage(imageLiteralResourceName: "home")
         detailController.tabBarItem.title = "Rapport"
         
-        let profileController = UINavigationController(rootViewController:  ProfileViewController())
+        let profileController = UINavigationController(rootViewController:  StepViewController())
         profileController.tabBarItem.image = UIImage(imageLiteralResourceName: "home")
         profileController.tabBarItem.title = "Profile"
         self.viewControllers = [homeController, detailController, profileController]
