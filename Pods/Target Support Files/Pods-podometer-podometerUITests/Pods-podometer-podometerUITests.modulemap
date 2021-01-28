@@ -1,0 +1,6 @@
+framework module Pods_podometer_podometerUITests {
+  umbrella header "Pods-podometer-podometerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,6 +26,14 @@
 		0CC786E725BF832400181173 /* StepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786E125BF832400181173 /* StepViewController.xib */; };
 		0CC786E825BF832400181173 /* MockStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786E325BF832400181173 /* MockStepViewController.xib */; };
 		0CC786E925BF832400181173 /* MockStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786E425BF832400181173 /* MockStepViewController.swift */; };
+		62BEBF03022D1D44DA65974E /* Pods_podometer_podometerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */; };
+		8ED3D04525C3183800E2483A /* Lanceur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D04225C3183800E2483A /* Lanceur.swift */; };
+		8ED3D04625C3183800E2483A /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D04325C3183800E2483A /* Confetti.swift */; };
+		8ED3D04C25C31A2500E2483A /* ConfettiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D04A25C31A2500E2483A /* ConfettiViewController.swift */; };
+		8ED3D04D25C31A2500E2483A /* ConfettiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */; };
+		8ED3D07525C3729A00E2483A /* IMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D07325C3729A00E2483A /* IMCViewController.swift */; };
+		8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D07425C3729A00E2483A /* IMCViewController.xib */; };
+		D22753287D9B2C892B0D2EB6 /* Pods_podometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +79,18 @@
 		0CC786E125BF832400181173 /* StepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepViewController.xib; sourceTree = "<group>"; };
 		0CC786E325BF832400181173 /* MockStepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MockStepViewController.xib; sourceTree = "<group>"; };
 		0CC786E425BF832400181173 /* MockStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockStepViewController.swift; sourceTree = "<group>"; };
+		3ECDD015461BF33F1D342ECA /* Pods-podometer-podometerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer-podometerUITests.release.xcconfig"; path = "Target Support Files/Pods-podometer-podometerUITests/Pods-podometer-podometerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E1A51702CC41360F05D92DC /* Pods-podometer-podometerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer-podometerUITests.debug.xcconfig"; path = "Target Support Files/Pods-podometer-podometerUITests/Pods-podometer-podometerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podometer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED3D04225C3183800E2483A /* Lanceur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lanceur.swift; sourceTree = "<group>"; };
+		8ED3D04325C3183800E2483A /* Confetti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
+		8ED3D04A25C31A2500E2483A /* ConfettiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiViewController.swift; sourceTree = "<group>"; };
+		8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfettiViewController.xib; sourceTree = "<group>"; };
+		8ED3D07325C3729A00E2483A /* IMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCViewController.swift; sourceTree = "<group>"; };
+		8ED3D07425C3729A00E2483A /* IMCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMCViewController.xib; sourceTree = "<group>"; };
+		B0A0532C5A9D1E9D4E1607F8 /* Pods-podometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.release.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.release.xcconfig"; sourceTree = "<group>"; };
+		B3365AE35D93EA1B972E5B03 /* Pods-podometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.debug.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podometer_podometerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22753287D9B2C892B0D2EB6 /* Pods_podometer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62BEBF03022D1D44DA65974E /* Pods_podometer_podometerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +127,8 @@
 				0CC786B725BF3B3200181173 /* podometerTests */,
 				0CC786C225BF3B3200181173 /* podometerUITests */,
 				0CC7869C25BF3B2D00181173 /* Products */,
+				501A5ED625AB82DBCEDB62ED /* Pods */,
+				C3C7DF86D0920674A228C355 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,8 +205,42 @@
 			children = (
 				0CC786E325BF832400181173 /* MockStepViewController.xib */,
 				0CC786E425BF832400181173 /* MockStepViewController.swift */,
+				8ED3D07325C3729A00E2483A /* IMCViewController.swift */,
+				8ED3D07425C3729A00E2483A /* IMCViewController.xib */,
+				8ED3D03D25C317DB00E2483A /* Confetti */,
 			);
 			path = Norman;
+			sourceTree = "<group>";
+		};
+		501A5ED625AB82DBCEDB62ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3365AE35D93EA1B972E5B03 /* Pods-podometer.debug.xcconfig */,
+				B0A0532C5A9D1E9D4E1607F8 /* Pods-podometer.release.xcconfig */,
+				4E1A51702CC41360F05D92DC /* Pods-podometer-podometerUITests.debug.xcconfig */,
+				3ECDD015461BF33F1D342ECA /* Pods-podometer-podometerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8ED3D03D25C317DB00E2483A /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				8ED3D04325C3183800E2483A /* Confetti.swift */,
+				8ED3D04225C3183800E2483A /* Lanceur.swift */,
+				8ED3D04A25C31A2500E2483A /* ConfettiViewController.swift */,
+				8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */,
+			);
+			path = Confetti;
+			sourceTree = "<group>";
+		};
+		C3C7DF86D0920674A228C355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */,
+				BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CC786C825BF3B3200181173 /* Build configuration list for PBXNativeTarget "podometer" */;
 			buildPhases = (
+				5E106E4D201292243BEEEA0D /* [CP] Check Pods Manifest.lock */,
 				0CC7869725BF3B2D00181173 /* Sources */,
 				0CC7869825BF3B2D00181173 /* Frameworks */,
 				0CC7869925BF3B2D00181173 /* Resources */,
+				FE24628831AD0E090FBAE2FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CC786CE25BF3B3200181173 /* Build configuration list for PBXNativeTarget "podometerUITests" */;
 			buildPhases = (
+				D1303F1EE7470CC792880280 /* [CP] Check Pods Manifest.lock */,
 				0CC786BB25BF3B3200181173 /* Sources */,
 				0CC786BC25BF3B3200181173 /* Frameworks */,
 				0CC786BD25BF3B3200181173 /* Resources */,
+				B4D3C438F9A18D506CE57F2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +357,9 @@
 				0CC786DB25BF5ACA00181173 /* ProfileViewController.xib in Resources */,
 				0C8B73C125C1E81C00D946F0 /* MapViewController.xib in Resources */,
 				0CC786E825BF832400181173 /* MockStepViewController.xib in Resources */,
+				8ED3D04D25C31A2500E2483A /* ConfettiViewController.xib in Resources */,
 				0CC786AB25BF3B3200181173 /* Assets.xcassets in Resources */,
+				8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,18 +379,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E106E4D201292243BEEEA0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-podometer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D3C438F9A18D506CE57F2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-podometer-podometerUITests/Pods-podometer-podometerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-podometer-podometerUITests/Pods-podometer-podometerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-podometer-podometerUITests/Pods-podometer-podometerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1303F1EE7470CC792880280 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-podometer-podometerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE24628831AD0E090FBAE2FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-podometer/Pods-podometer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-podometer/Pods-podometer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-podometer/Pods-podometer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CC7869725BF3B2D00181173 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED3D07525C3729A00E2483A /* IMCViewController.swift in Sources */,
 				0CC786DA25BF5ACA00181173 /* ProfileViewController.swift in Sources */,
 				0CC786DD25BF687A00181173 /* NavViewController.swift in Sources */,
+				8ED3D04525C3183800E2483A /* Lanceur.swift in Sources */,
 				0CC786E925BF832400181173 /* MockStepViewController.swift in Sources */,
+				8ED3D04625C3183800E2483A /* Confetti.swift in Sources */,
 				0C8B73C025C1E81C00D946F0 /* MapViewController.swift in Sources */,
 				0CC786A925BF3B2D00181173 /* podometer.xcdatamodeld in Sources */,
 				0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */,
 				0CC786D325BF3D9400181173 /* User.swift in Sources */,
+				8ED3D04C25C31A2500E2483A /* ConfettiViewController.swift in Sources */,
 				0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */,
 				0CC786D625BF409D00181173 /* UserFormViewController.swift in Sources */,
 				0CC786E625BF832400181173 /* StepViewController.swift in Sources */,
@@ -492,6 +641,7 @@
 		};
 		0CC786C925BF3B3200181173 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3365AE35D93EA1B972E5B03 /* Pods-podometer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +660,7 @@
 		};
 		0CC786CA25BF3B3200181173 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A0532C5A9D1E9D4E1607F8 /* Pods-podometer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -570,6 +721,7 @@
 		};
 		0CC786CF25BF3B3200181173 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1A51702CC41360F05D92DC /* Pods-podometer-podometerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -589,6 +741,7 @@
 		};
 		0CC786D025BF3B3200181173 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECDD015461BF33F1D342ECA /* Pods-podometer-podometerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
