@@ -17,10 +17,7 @@ class UserFormViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Création"
-        let firstUseApp = isFirstUse()
-        if(firstUseApp) {
-            //self.navigationController?.pushViewController(ProfileViewController(), animated: true)
-        }
+       
 
         // Do any additional setup after loading the view.
     }
@@ -43,37 +40,11 @@ class UserFormViewController: UIViewController {
               let weight = Double(userWeight) else {
                 return
         }
-        
-        saveUser(named: userPseudo, age: age, height: height, weight: weight)
-        
-    }
-    
-    private func saveUser(named pseudo: String,  age: Int, height: Double, weight: Double) {
-        let user = User(context: AppDelegate.viewContext)
-        user.pseudo = pseudo
-        user.age = Int32(age)
-        user.height = height
-        user.weight = weight
-        user.curlevel = 0
-        user.curxp = 0
-        user.curimc = 0
-        user.total_step = 0
-        user.total_distance = 0
-        try? AppDelegate.viewContext.save()
+        let user = User.new(named: userPseudo, age: Int32(age), height: height, weight: weight)
+        User.updateOne(user: user)
+        self.navigationController?.pushViewController(ProfileViewController(), animated: true)
         
     }
-    
-    private func isFirstUse() -> Bool {
-        return true
-        
-    }
-    
-    
-    @IBAction func updateBtn(_ sender: Any) {
-       
-        self.navigationController?.pushViewController(ModifyViewController(), animated: true)
-    }
-    
     
 
 }

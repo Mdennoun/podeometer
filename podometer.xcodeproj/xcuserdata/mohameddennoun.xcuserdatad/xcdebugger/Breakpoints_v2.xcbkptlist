@@ -84,34 +84,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C4521C90-9A9E-4F3C-905C-7935349B583F - c193949df4604a50"
+                  uuid = "C4521C90-9A9E-4F3C-905C-7935349B583F - f447fec97038d859"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "podometer.StepViewController.viewDidLoad() -&gt; ()"
                   moduleName = "podometer"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohameddennoun/Desktop/tp/fr/podometer/podometer/Mohamed/StepViewController.swift"
+                  urlString = "file:///Users/mohameddennoun/Desktop/IOSLastPodo/podometer/podometer/Mohamed/StepViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "32"
                   endingLineNumber = "32"
-                  offsetFromSymbolStart = "564">
+                  offsetFromSymbolStart = "563">
                </Location>
                <Location
-                  uuid = "C4521C90-9A9E-4F3C-905C-7935349B583F - 4d3bd7a837574a4e"
+                  uuid = "C4521C90-9A9E-4F3C-905C-7935349B583F - 78efbdfcb30fd847"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Optional&lt;__C.CMPedometerData&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in podometer.StepViewController.viewDidLoad() -&gt; ()"
                   moduleName = "podometer"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohameddennoun/Desktop/tp/fr/podometer/podometer/Mohamed/StepViewController.swift"
+                  urlString = "file:///Users/mohameddennoun/Desktop/IOSLastPodo/podometer/podometer/Mohamed/StepViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "34"
                   endingLineNumber = "34"
-                  offsetFromSymbolStart = "196">
+                  offsetFromSymbolStart = "184">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -132,34 +132,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "99F87888-B8DE-4F6A-B1C0-7788F31EE776 - c193949df4604a50"
+                  uuid = "99F87888-B8DE-4F6A-B1C0-7788F31EE776 - f447fec97038d859"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "podometer.StepViewController.viewDidLoad() -&gt; ()"
                   moduleName = "podometer"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohameddennoun/Desktop/tp/fr/podometer/podometer/Mohamed/StepViewController.swift"
+                  urlString = "file:///Users/mohameddennoun/Desktop/IOSLastPodo/podometer/podometer/Mohamed/StepViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "61"
                   endingLineNumber = "61"
-                  offsetFromSymbolStart = "1096">
+                  offsetFromSymbolStart = "1085">
                </Location>
                <Location
-                  uuid = "99F87888-B8DE-4F6A-B1C0-7788F31EE776 - 3c6a122f2141e0cd"
+                  uuid = "99F87888-B8DE-4F6A-B1C0-7788F31EE776 - 9be787ba51972c4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #2 (Swift.Optional&lt;__C.CMPedometerData&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in podometer.StepViewController.viewDidLoad() -&gt; ()"
                   moduleName = "podometer"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohameddennoun/Desktop/tp/fr/podometer/podometer/Mohamed/StepViewController.swift"
+                  urlString = "file:///Users/mohameddennoun/Desktop/IOSLastPodo/podometer/podometer/Mohamed/StepViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
                   endingLineNumber = "63"
-                  offsetFromSymbolStart = "348">
+                  offsetFromSymbolStart = "369">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -212,52 +212,36 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E0D73259-C524-421E-AF8C-74085EC7609A - 4d3bd7a837574a4e"
+                  uuid = "E0D73259-C524-421E-AF8C-74085EC7609A - 78efbdfcb30fd847"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Optional&lt;__C.CMPedometerData&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in podometer.StepViewController.viewDidLoad() -&gt; ()"
                   moduleName = "podometer"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohameddennoun/Desktop/tp/fr/podometer/podometer/Mohamed/StepViewController.swift"
+                  urlString = "file:///Users/mohameddennoun/Desktop/IOSLastPodo/podometer/podometer/Mohamed/StepViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "34"
                   endingLineNumber = "34"
-                  offsetFromSymbolStart = "196">
+                  offsetFromSymbolStart = "184">
                </Location>
                <Location
-                  uuid = "E0D73259-C524-421E-AF8C-74085EC7609A - afdfaaa3124abe3b"
+                  uuid = "E0D73259-C524-421E-AF8C-74085EC7609A - 9a0bc0f796122c32"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;__C.CMPedometerData&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in podometer.StepViewController.viewDidLoad() -&gt; ()"
                   moduleName = "podometer"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohameddennoun/Desktop/tp/fr/podometer/podometer/Mohamed/StepViewController.swift"
+                  urlString = "file:///Users/mohameddennoun/Desktop/IOSLastPodo/podometer/podometer/Mohamed/StepViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
                   endingLineNumber = "36"
-                  offsetFromSymbolStart = "332">
+                  offsetFromSymbolStart = "338">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8D811A03-75C2-47F2-B129-520DF562F257"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "podometer/Mohamed/MapViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
-            landmarkName = "mapView(_:didUpdate:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
