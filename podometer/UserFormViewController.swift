@@ -17,6 +17,10 @@ class UserFormViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Création"
+        let firstUseApp = isFirstUse()
+        if(firstUseApp) {
+            //self.navigationController?.pushViewController(ProfileViewController(), animated: true)
+        }
 
         // Do any additional setup after loading the view.
     }
@@ -57,8 +61,19 @@ class UserFormViewController: UIViewController {
         user.total_distance = 0
         try? AppDelegate.viewContext.save()
         
+    }
+    
+    private func isFirstUse() -> Bool {
+        return true
         
     }
+    
+    
+    @IBAction func updateBtn(_ sender: Any) {
+       
+        self.navigationController?.pushViewController(ModifyViewController(), animated: true)
+    }
+    
     
 
 }
