@@ -34,6 +34,8 @@
 		8ED3D07525C3729A00E2483A /* IMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D07325C3729A00E2483A /* IMCViewController.swift */; };
 		8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D07425C3729A00E2483A /* IMCViewController.xib */; };
 		D22753287D9B2C892B0D2EB6 /* Pods_podometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */; };
+		F889A38F25C5ADEB00DD8E16 /* ModifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F889A38D25C5ADEB00DD8E16 /* ModifyViewController.swift */; };
+		F889A39025C5ADEB00DD8E16 /* ModifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F889A38E25C5ADEB00DD8E16 /* ModifyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		B0A0532C5A9D1E9D4E1607F8 /* Pods-podometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.release.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.release.xcconfig"; sourceTree = "<group>"; };
 		B3365AE35D93EA1B972E5B03 /* Pods-podometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.debug.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.debug.xcconfig"; sourceTree = "<group>"; };
 		BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podometer_podometerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F889A38D25C5ADEB00DD8E16 /* ModifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyViewController.swift; sourceTree = "<group>"; };
+		F889A38E25C5ADEB00DD8E16 /* ModifyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModifyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 		0CC7869D25BF3B2D00181173 /* podometer */ = {
 			isa = PBXGroup;
 			children = (
+				F889A38C25C5ADCD00DD8E16 /* Arnaud */,
 				0CC786DE25BF832300181173 /* Mohamed */,
 				0CC786E225BF832400181173 /* Norman */,
 				0CC786DC25BF687A00181173 /* NavViewController.swift */,
@@ -241,6 +246,15 @@
 				BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F889A38C25C5ADCD00DD8E16 /* Arnaud */ = {
+			isa = PBXGroup;
+			children = (
+				F889A38D25C5ADEB00DD8E16 /* ModifyViewController.swift */,
+				F889A38E25C5ADEB00DD8E16 /* ModifyViewController.xib */,
+			);
+			path = Arnaud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F889A39025C5ADEB00DD8E16 /* ModifyViewController.xib in Resources */,
 				0CC786AE25BF3B3200181173 /* LaunchScreen.storyboard in Resources */,
 				0CC786E725BF832400181173 /* StepViewController.xib in Resources */,
 				0CC786D725BF409D00181173 /* UserFormViewController.xib in Resources */,
@@ -478,6 +493,7 @@
 				8ED3D04C25C31A2500E2483A /* ConfettiViewController.swift in Sources */,
 				0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */,
 				0CC786D625BF409D00181173 /* UserFormViewController.swift in Sources */,
+				F889A38F25C5ADEB00DD8E16 /* ModifyViewController.swift in Sources */,
 				0CC786E625BF832400181173 /* StepViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

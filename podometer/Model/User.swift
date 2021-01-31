@@ -16,5 +16,23 @@ class User: NSManagedObject {
         return users
     }
     
-    
+    static func updateOne(user: User) {
+            let u: User!
+            let results = User.all
+
+            if results.count == 0 {
+               // here you are inserting
+                u = User(context: AppDelegate.viewContext)
+            } else {
+               // here you are updating
+               u = results.first
+            }
+            u.pseudo = user.pseudo
+            u.age = user.age
+            u.height = user.height
+            u.weight = user.weight
+            
+            try? AppDelegate.viewContext.save()
+            
+        }
 }

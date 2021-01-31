@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -41,20 +43,29 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQM-HO-Bng" userLabel="validate">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQM-HO-Bng" userLabel="validate">
                     <rect key="frame" x="20" y="290" width="374" height="30"/>
                     <color key="backgroundColor" red="0.27153253560000001" green="0.32834506029999999" blue="0.3843218088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
                     <state key="normal" title="Valider"/>
                     <connections>
                         <action selector="validate:" destination="-1" eventType="touchUpInside" id="ydf-de-Dkd"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qir-if-k38">
+                    <rect key="frame" x="30" y="340" width="354" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="updateBtn:" destination="-1" eventType="touchUpInside" id="h7F-FZ-jTo"/>
+                    </connections>
+                </button>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="tP4-Cx-7K6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="09g-i2-fsc"/>
                 <constraint firstItem="Z4c-6i-Zv7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="1VH-0X-L99"/>
+                <constraint firstItem="qir-if-k38" firstAttribute="top" secondItem="iQM-HO-Bng" secondAttribute="bottom" constant="20" id="4Sd-pO-Dxv"/>
                 <constraint firstItem="E7I-QF-e6w" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="6dU-Dg-PCw"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tP4-Cx-7K6" secondAttribute="trailing" constant="20" id="8Q2-Ps-rge"/>
                 <constraint firstItem="Aqp-GE-Bb4" firstAttribute="top" secondItem="Z4c-6i-Zv7" secondAttribute="bottom" constant="20" id="K6l-2z-3ed"/>
@@ -64,13 +75,22 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Aqp-GE-Bb4" secondAttribute="trailing" constant="20" id="Y4d-g1-3Ev"/>
                 <constraint firstItem="iQM-HO-Bng" firstAttribute="top" secondItem="E7I-QF-e6w" secondAttribute="bottom" constant="20" id="gpg-UB-lGp"/>
                 <constraint firstItem="E7I-QF-e6w" firstAttribute="top" secondItem="tP4-Cx-7K6" secondAttribute="bottom" constant="20" id="mKM-Ng-dbh"/>
+                <constraint firstItem="qir-if-k38" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="mgo-v7-u71"/>
                 <constraint firstItem="iQM-HO-Bng" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="nI0-tV-riw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qir-if-k38" secondAttribute="trailing" constant="30" id="stG-fu-CaA"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="iQM-HO-Bng" secondAttribute="trailing" constant="20" id="uqI-Ih-wOL"/>
                 <constraint firstItem="tP4-Cx-7K6" firstAttribute="top" secondItem="Aqp-GE-Bb4" secondAttribute="bottom" constant="20" id="wDS-Go-Wqz"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Z4c-6i-Zv7" secondAttribute="trailing" constant="20" id="wtF-PY-Ud4"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="139" y="145"/>
         </view>
     </objects>
+    <resources>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
