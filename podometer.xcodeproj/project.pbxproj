@@ -15,6 +15,8 @@
 		0C8B73CA25C7010E00D946F0 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73C625C7010D00D946F0 /* WeekdaysView.swift */; };
 		0C8B73CC25C7090100D946F0 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73CB25C7090100D946F0 /* UIApplication.swift */; };
 		0C8B73CE25C70AC400D946F0 /* UserFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */; };
+		0CA3DA1425C763B7009B441E /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */; };
+		0CA3DA1525C763B7009B441E /* UpgradeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */; };
 		0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC7869E25BF3B2D00181173 /* AppDelegate.swift */; };
 		0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786A025BF3B2D00181173 /* SceneDelegate.swift */; };
 		0CC786A925BF3B2D00181173 /* podometer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786A725BF3B2D00181173 /* podometer.xcdatamodeld */; };
@@ -67,6 +69,8 @@
 		0C8B73C625C7010D00D946F0 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
 		0C8B73CB25C7090100D946F0 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserFormViewController.xib; sourceTree = "<group>"; };
+		0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeViewController.swift; sourceTree = "<group>"; };
+		0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpgradeViewController.xib; sourceTree = "<group>"; };
 		0CC7869B25BF3B2D00181173 /* podometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC7869E25BF3B2D00181173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CC786A025BF3B2D00181173 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 				0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */,
 				0CC786D825BF5ACA00181173 /* ProfileViewController.swift */,
 				0CC786D925BF5ACA00181173 /* ProfileViewController.xib */,
+				0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */,
+				0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */,
 			);
 			path = podometer;
 			sourceTree = "<group>";
@@ -389,6 +395,7 @@
 				0C8B73CE25C70AC400D946F0 /* UserFormViewController.xib in Resources */,
 				0CC786E825BF832400181173 /* MockStepViewController.xib in Resources */,
 				8ED3D04D25C31A2500E2483A /* ConfettiViewController.xib in Resources */,
+				0CA3DA1525C763B7009B441E /* UpgradeViewController.xib in Resources */,
 				0CC786AB25BF3B3200181173 /* Assets.xcassets in Resources */,
 				8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */,
 			);
@@ -501,6 +508,7 @@
 				0C8B73CA25C7010E00D946F0 /* WeekdaysView.swift in Sources */,
 				0C8B73C925C7010E00D946F0 /* CalendarFullViewController.swift in Sources */,
 				0CC786DD25BF687A00181173 /* NavViewController.swift in Sources */,
+				0CA3DA1425C763B7009B441E /* UpgradeViewController.swift in Sources */,
 				8ED3D04525C3183800E2483A /* Lanceur.swift in Sources */,
 				0CC786E925BF832400181173 /* MockStepViewController.swift in Sources */,
 				8ED3D04625C3183800E2483A /* Confetti.swift in Sources */,

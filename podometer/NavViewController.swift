@@ -42,7 +42,7 @@ class NavViewController: UITabBarController {
         homeController.tabBarItem.image = UIImage(imageLiteralResourceName: "home")
         homeController.tabBarItem.title = "Aujourd'hui"
             
-        let detailController = UINavigationController(rootViewController: MapViewController())
+        let detailController = UINavigationController(rootViewController:   UpgradeViewController.newInstance(badgeName: "lib_ac_badge_level_1", badgeText: "7 jours"))
         detailController.tabBarItem.image = UIImage(imageLiteralResourceName: "leaderboard")
         detailController.tabBarItem.title = "Rapport"
         
