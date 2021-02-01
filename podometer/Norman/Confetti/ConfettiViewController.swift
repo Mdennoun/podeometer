@@ -12,10 +12,14 @@ class ConfettiViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        bouton.layer.cornerRadius = 25
         lanceur = Lanceur(layer: self)
         lanceur.setup(frame: view.frame)
         view.layer.addSublayer(lanceur)
+        lanceur.lancerConfettis()
+        Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { (t) in
+            self.lanceur.emitterCells?.removeAll()
+        }
+
 
     }
 
@@ -26,12 +30,8 @@ class ConfettiViewController: UIViewController {
 
     
     @IBAction func boutonAction(_ sender: Any) {
-        lanceur.lancerConfettis()
         bouton.isEnabled = false
-        Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { (t) in
-            self.lanceur.emitterCells?.removeAll()
-            self.bouton.isEnabled = true
-        }
+        
     }
     
     
