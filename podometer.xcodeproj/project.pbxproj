@@ -42,6 +42,7 @@
 		8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D07425C3729A00E2483A /* IMCViewController.xib */; };
 		D22753287D9B2C892B0D2EB6 /* Pods_podometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */; };
 		F86E997425C8AB38004D1D7A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E997325C8AB38004D1D7A /* Config.swift */; };
+		F86E998725C8B226004D1D7A /* BadgeDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E998625C8B226004D1D7A /* BadgeDay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		B3365AE35D93EA1B972E5B03 /* Pods-podometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.debug.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.debug.xcconfig"; sourceTree = "<group>"; };
 		BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podometer_podometerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86E997325C8AB38004D1D7A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F86E998625C8B226004D1D7A /* BadgeDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				F86E997325C8AB38004D1D7A /* Config.swift */,
+				F86E998625C8B226004D1D7A /* BadgeDay.swift */,
 			);
 			path = Arnaud;
 			sourceTree = "<group>";
@@ -518,6 +521,7 @@
 				0C8B73C725C7010E00D946F0 /* CalenderView.swift in Sources */,
 				0C8B73C025C1E81C00D946F0 /* MapViewController.swift in Sources */,
 				0CC786A925BF3B2D00181173 /* podometer.xcdatamodeld in Sources */,
+				F86E998725C8B226004D1D7A /* BadgeDay.swift in Sources */,
 				0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */,
 				0C8B73CC25C7090100D946F0 /* UIApplication.swift in Sources */,
 				0CC786D325BF3D9400181173 /* User.swift in Sources */,
