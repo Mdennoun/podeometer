@@ -41,6 +41,7 @@
 		8ED3D07525C3729A00E2483A /* IMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D07325C3729A00E2483A /* IMCViewController.swift */; };
 		8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D07425C3729A00E2483A /* IMCViewController.xib */; };
 		D22753287D9B2C892B0D2EB6 /* Pods_podometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */; };
+		F86E997425C8AB38004D1D7A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E997325C8AB38004D1D7A /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		B0A0532C5A9D1E9D4E1607F8 /* Pods-podometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.release.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.release.xcconfig"; sourceTree = "<group>"; };
 		B3365AE35D93EA1B972E5B03 /* Pods-podometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.debug.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.debug.xcconfig"; sourceTree = "<group>"; };
 		BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podometer_podometerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86E997325C8AB38004D1D7A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +172,7 @@
 		0CC7869D25BF3B2D00181173 /* podometer */ = {
 			isa = PBXGroup;
 			children = (
-				F889A38C25C5ADCD00DD8E16 /* Arnaud */,
+				F86E996325C8A626004D1D7A /* Arnaud */,
 				0CC786DE25BF832300181173 /* Mohamed */,
 				0CC786E225BF832400181173 /* Norman */,
 				0CC786DC25BF687A00181173 /* NavViewController.swift */,
@@ -273,9 +275,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F889A38C25C5ADCD00DD8E16 /* Arnaud */ = {
+		F86E996325C8A626004D1D7A /* Arnaud */ = {
 			isa = PBXGroup;
 			children = (
+				F86E997325C8AB38004D1D7A /* Config.swift */,
 			);
 			path = Arnaud;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 				0CC786D325BF3D9400181173 /* User.swift in Sources */,
 				0C8B73C825C7010E00D946F0 /* MonthView.swift in Sources */,
 				8ED3D04C25C31A2500E2483A /* ConfettiViewController.swift in Sources */,
+				F86E997425C8AB38004D1D7A /* Config.swift in Sources */,
 				0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */,
 				0CC786D625BF409D00181173 /* UserFormViewController.swift in Sources */,
 				0CC786E625BF832400181173 /* StepViewController.swift in Sources */,

@@ -110,4 +110,16 @@ class User: NSManagedObject {
         try? AppDelegate.viewContext.save()
         
     }
+    
+    static func checkLevelUser() ->Bool {
+        guard let user = User.all.first else {
+            return false
+        }
+        let step = user.total_step
+        let lvl = user.curlevel
+        
+        return Config.level[Int(lvl)] <= Int(step) ? true : false
+    }
+    
+    
 }
