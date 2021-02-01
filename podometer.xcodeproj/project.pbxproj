@@ -43,6 +43,7 @@
 		D22753287D9B2C892B0D2EB6 /* Pods_podometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */; };
 		F86E997425C8AB38004D1D7A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E997325C8AB38004D1D7A /* Config.swift */; };
 		F86E998725C8B226004D1D7A /* BadgeDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E998625C8B226004D1D7A /* BadgeDay.swift */; };
+		F86E998F25C8B7DC004D1D7A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E998E25C8B7DC004D1D7A /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podometer_podometerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86E997325C8AB38004D1D7A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		F86E998625C8B226004D1D7A /* BadgeDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDay.swift; sourceTree = "<group>"; };
+		F86E998E25C8B7DC004D1D7A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 			children = (
 				F86E997325C8AB38004D1D7A /* Config.swift */,
 				F86E998625C8B226004D1D7A /* BadgeDay.swift */,
+				F86E998E25C8B7DC004D1D7A /* Date.swift */,
 			);
 			path = Arnaud;
 			sourceTree = "<group>";
@@ -509,6 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86E998F25C8B7DC004D1D7A /* Date.swift in Sources */,
 				8ED3D07525C3729A00E2483A /* IMCViewController.swift in Sources */,
 				0CC786DA25BF5ACA00181173 /* ProfileViewController.swift in Sources */,
 				0C8B73CA25C7010E00D946F0 /* WeekdaysView.swift in Sources */,

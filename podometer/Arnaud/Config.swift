@@ -19,5 +19,6 @@ class Config {
                                        BadgeDay(day: 100, text: "100 jours !"),
                                        BadgeDay(day: 180,text: "180 Jours !"),
                                        BadgeDay(day: 365, text: "365 Jours !!") ]
+    
 }
 

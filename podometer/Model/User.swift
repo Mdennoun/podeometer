@@ -7,6 +7,7 @@
 //
 
 import CoreData
+import UIKit
 
 class User: NSManagedObject {
     
@@ -111,7 +112,7 @@ class User: NSManagedObject {
         
     }
     
-    static func checkLevelUser() ->Bool {
+    static func checkLevel() ->Bool {
         guard let user = User.all.first else {
             return false
         }
@@ -121,5 +122,14 @@ class User: NSManagedObject {
         return Config.level[Int(lvl)] <= Int(step) ? true : false
     }
     
+    static func checkBadgeDay() ->Bool {
+        let dateInstall = Date.getInstallationDate()
+        let curDate = Date()
+        guard let totalDay = curDate.fullDistance(from: dateInstall, resultIn: .day) else {
+            return false
+        }
+        let badges = Config.badgeDays.filter {$0.day < totalDay}
+        return badges.isEmpty ? false : true
+    }
     
 }
