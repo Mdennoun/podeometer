@@ -8,12 +8,13 @@
 
 import Foundation
 
-class BadgeDay {
-    let day : Int
+class Badge {
+    let number : Int
     let text : String
-    
-    init(day: Int, text: String) {
-        self.day = day
+
+
+    init(number: Int, text: String) {
+        self.number = number
         self.text = text
     }
 
