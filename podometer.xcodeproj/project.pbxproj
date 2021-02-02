@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C04F41725C9FD8F00373153 /* PodometerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04F41625C9FD8F00373153 /* PodometerModel.swift */; };
 		0C8B73C025C1E81C00D946F0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */; };
 		0C8B73C125C1E81C00D946F0 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */; };
 		0C8B73C725C7010E00D946F0 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73C325C7010D00D946F0 /* CalenderView.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C04F41625C9FD8F00373153 /* PodometerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodometerModel.swift; sourceTree = "<group>"; };
 		0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		0C8B73C325C7010D00D946F0 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				0CC786E125BF832400181173 /* StepViewController.xib */,
 				0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */,
 				0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */,
+				0C04F41625C9FD8F00373153 /* PodometerModel.swift */,
 			);
 			path = Mohamed;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 				0CA3DA1425C763B7009B441E /* UpgradeViewController.swift in Sources */,
 				8ED3D04525C3183800E2483A /* Lanceur.swift in Sources */,
 				0CC786E925BF832400181173 /* MockStepViewController.swift in Sources */,
+				0C04F41725C9FD8F00373153 /* PodometerModel.swift in Sources */,
 				8ED3D04625C3183800E2483A /* Confetti.swift in Sources */,
 				0C8B73C725C7010E00D946F0 /* CalenderView.swift in Sources */,
 				0C8B73C025C1E81C00D946F0 /* MapViewController.swift in Sources */,

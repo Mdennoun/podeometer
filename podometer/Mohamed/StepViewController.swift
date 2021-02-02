@@ -21,44 +21,31 @@ class StepViewController: UIViewController {
     @IBOutlet var endDate: UILabel!
     
     
-    let pedometer = CMPedometer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("start here")
-
-        if CMPedometer.isStepCountingAvailable() {
-            let calendar = Calendar.current
-            pedometer.queryPedometerData(from: calendar.startOfDay(for: Date()), to: Date()) { (data, error) in
-               
-                DispatchQueue.main.async{
+        
+        DispatchQueue.main.async{
                    
-                    guard let dist = data?.distance,
-                    let step = data?.numberOfSteps,
-                    let floorAsc = data?.floorsAscended,
-                    let floorDesc = data?.floorsDescended,
-                    let start = data?.startDate,
-                    let end = data?.endDate else {
-                        return
+            guard let data = PodometerModel.todayData() else {
+            return
                         
-                    }
-
-                    let cadence = data?.currentCadence?.description
-                    let pace = data?.currentPace?.description
-                    
-                    self.distence.text = "Distance : \(dist)"
-                    self.step.text = "numberOfSteps : \(step)"
-                    self.floorAscended.text = "floorsAscended : \(floorAsc)"
-                    self.floorDescended.text = "floorsDescended : \(floorDesc)"
-                    self.curCadence.text = "currentCadence : \(cadence ?? "0")"
-                    self.curPace.text = "currentPace : \(pace ?? "0")"
-                    self.startDate.text = "startDate : \(start)"
-                    self.endDate.text = "endDate : \(end)"
-                }
-                
-            }
         }
-        pedometer.startUpdates(from: Date()) { (data, error) in
+
+                    
+        self.distence.text = "Distance : \(data.distence)"
+        self.step.text = "numberOfSteps : \(data.step)"
+        self.floorAscended.text = "floorsAscended : \(data.floorAscended)"
+        self.floorDescended.text = "floorsDescended : \(data.floorDescended)"
+        self.curCadence.text = "currentCadence :  0"
+        self.curPace.text = "currentPace : 0"
+        self.startDate.text = "startDate : \(data.startDate)"
+        self.endDate.text = "endDate : \(data.endDate)"
+        
+        
+        }
+        
+        PodometerModel.pedometer.startUpdates(from: Date()) { (data, error) in
             
             guard let dist = data?.distance,
             let step = data?.numberOfSteps,
@@ -82,6 +69,7 @@ class StepViewController: UIViewController {
             self.endDate.text = "endDate : \(end)"
                     
         }
+    
     }
 
 
