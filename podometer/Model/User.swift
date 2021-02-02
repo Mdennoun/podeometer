@@ -140,6 +140,14 @@ class User: NSManagedObject {
         let badgeDist = Config.badgeDistance.filter {$0.number < curDist}
         return badgeDist.isEmpty ? false : true
     }
+    
+    static func checkBadgeStep() -> Bool {
+        guard let todaySteps = PodometerModel.todayData()?.step else {
+            return false
+        }
+        let badgeStep = Config.badgeSteps.filter {$0.number < Int(truncating: todaySteps)}
+        return badgeStep.isEmpty ? false : true
+    }
 
 }
 
