@@ -29,5 +29,16 @@ class Config {
                                     Badge(number: 30000,text: "Explorateur"),
                                     Badge(number: 40000, text: "Héros"),
                                     Badge(number: 60000, text: "Conquérant")]
+    
+    static let badgeDistance: [Badge] = [Badge(number: 5, text: "Petite randonnée"),
+                                       Badge(number: 10, text: "Vacance Romaines"),
+                                       Badge(number: 20, text: "Conquérir l'Olympe"),
+                                       Badge(number: 42, text: "Marathon"),
+                                       Badge(number: 100, text: "100 Km"),
+                                       Badge(number: 220, text: "De Londres à Paris"),
+                                       Badge(number: 450, text: "De Boston à philladelphie"),
+                                       Badge(number: 800, text: "Huit cents kilomètres"),
+                                       Badge(number: 2000, text: "Sahara"),
+                                       Badge(number: 6300, text: "Vers le centre de la Terre")]
 
 }

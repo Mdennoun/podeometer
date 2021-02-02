@@ -128,8 +128,18 @@ class User: NSManagedObject {
         guard let totalDay = curDate.fullDistance(from: dateInstall, resultIn: .day) else {
             return false
         }
-        let badges = Config.badgeDays.filter {$0.day < totalDay}
+        let badges = Config.badgeDays.filter {$0.number < totalDay}
         return badges.isEmpty ? false : true
     }
     
+    static func checkDistanceTotal() -> Bool {
+        guard let user = User.all.first else {
+            return false
+        }
+        let curDist = user.total_distance
+        let badgeDist = Config.badgeDistance.filter {$0.number < curDist}
+        return badgeDist.isEmpty ? false : true
+    }
+
 }
+
