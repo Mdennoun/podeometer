@@ -148,6 +148,10 @@ class User: NSManagedObject {
         let badgeStep = Config.badgeSteps.filter {$0.number < Int(truncating: todaySteps)}
         return badgeStep.isEmpty ? false : true
     }
+    
+    func calculIMC() -> Double {
+        return self.weight / ((self.height / 100) * (self.height / 100))
+    }
 
 }
 
