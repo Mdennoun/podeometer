@@ -62,6 +62,10 @@ class User: NSManagedObject {
             
         }
     
+     func calculIMC() -> Double {
+        return self.weight / ((self.height / 100) * (self.height / 100))
+    }
+    
     static func updateTotalStep(nbStep: Int) {
             let u: User!
             let results = User.all
@@ -112,6 +116,8 @@ class User: NSManagedObject {
         
     }
     
+    
+    /*
     static func checkLevel() ->Bool {
         guard let user = User.all.first else {
             return false
@@ -121,6 +127,8 @@ class User: NSManagedObject {
         
         return Config.level[Int(lvl)] <= Int(step) ? true : false
     }
+    
+    */
     
     static func checkBadgeDay() ->Bool {
         let dateInstall = Date.getInstallationDate()
@@ -149,9 +157,19 @@ class User: NSManagedObject {
         return badgeStep.isEmpty ? false : true
     }
     
-    func calculIMC() -> Double {
-        return self.weight / ((self.height / 100) * (self.height / 100))
+    
+    
+  
+    
+    static func setBadgeStep() -> [Badge] {
+        guard let todaySteps = PodometerModel.todayData()?.step else {
+            return []
+        }
+        let badgeStep = Config.badgeSteps.filter {$0.number < Int(truncating: todaySteps)}
+        return badgeStep
     }
+    
 
+    
 }
 

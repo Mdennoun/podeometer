@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductCollectionViewCell" customModule="podometer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="COLLECTION_CELL_PRODUCT_IDENTIFER" image="product" translatesAutoresizingMaskIntoConstraints="NO" id="QgC-vt-r7M">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="QgC-vt-r7M" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VRt-NU-gkP"/>
+                <constraint firstAttribute="trailing" secondItem="QgC-vt-r7M" secondAttribute="trailing" id="Z5A-mp-sR5"/>
+                <constraint firstItem="QgC-vt-r7M" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oyh-fj-ulK"/>
+                <constraint firstAttribute="bottom" secondItem="QgC-vt-r7M" secondAttribute="bottom" id="xbd-EJ-mLT"/>
+            </constraints>
+            <size key="customSize" width="200" height="199"/>
+            <connections>
+                <outlet property="photoProduct" destination="QgC-vt-r7M" id="bqZ-TF-jS0"/>
+            </connections>
+            <point key="canvasLocation" x="81.159420289855078" y="102.45535714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="product" width="1816" height="1262"/>
+    </resources>
+</document>

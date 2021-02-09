@@ -41,6 +41,10 @@
 		8ED3D04D25C31A2500E2483A /* ConfettiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */; };
 		8ED3D07525C3729A00E2483A /* IMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D07325C3729A00E2483A /* IMCViewController.swift */; };
 		8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D07425C3729A00E2483A /* IMCViewController.xib */; };
+		8ED3D11E25D2DCF600E2483A /* StoreDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D11A25D2DCF600E2483A /* StoreDetailViewController.xib */; };
+		8ED3D11F25D2DCF600E2483A /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D11B25D2DCF600E2483A /* ProductCollectionViewCell.xib */; };
+		8ED3D12025D2DCF600E2483A /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D11C25D2DCF600E2483A /* ProductCollectionViewCell.swift */; };
+		8ED3D12125D2DCF600E2483A /* StoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D11D25D2DCF600E2483A /* StoreDetailViewController.swift */; };
 		D22753287D9B2C892B0D2EB6 /* Pods_podometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */; };
 		F86E997425C8AB38004D1D7A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E997325C8AB38004D1D7A /* Config.swift */; };
 		F86E998725C8B226004D1D7A /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E998625C8B226004D1D7A /* Badge.swift */; };
@@ -107,6 +111,10 @@
 		8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfettiViewController.xib; sourceTree = "<group>"; };
 		8ED3D07325C3729A00E2483A /* IMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCViewController.swift; sourceTree = "<group>"; };
 		8ED3D07425C3729A00E2483A /* IMCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMCViewController.xib; sourceTree = "<group>"; };
+		8ED3D11A25D2DCF600E2483A /* StoreDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreDetailViewController.xib; sourceTree = "<group>"; };
+		8ED3D11B25D2DCF600E2483A /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		8ED3D11C25D2DCF600E2483A /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		8ED3D11D25D2DCF600E2483A /* StoreDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreDetailViewController.swift; sourceTree = "<group>"; };
 		B0A0532C5A9D1E9D4E1607F8 /* Pods-podometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.release.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.release.xcconfig"; sourceTree = "<group>"; };
 		B3365AE35D93EA1B972E5B03 /* Pods-podometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer.debug.xcconfig"; path = "Target Support Files/Pods-podometer/Pods-podometer.debug.xcconfig"; sourceTree = "<group>"; };
 		BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podometer_podometerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,8 +250,9 @@
 		0CC786E225BF832400181173 /* Norman */ = {
 			isa = PBXGroup;
 			children = (
-				0CC786E325BF832400181173 /* MockStepViewController.xib */,
+				8ED3D0FC25D2CED400E2483A /* Badge */,
 				0CC786E425BF832400181173 /* MockStepViewController.swift */,
+				0CC786E325BF832400181173 /* MockStepViewController.xib */,
 				8ED3D07325C3729A00E2483A /* IMCViewController.swift */,
 				8ED3D07425C3729A00E2483A /* IMCViewController.xib */,
 				8ED3D03D25C317DB00E2483A /* Confetti */,
@@ -271,6 +280,17 @@
 				8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */,
 			);
 			path = Confetti;
+			sourceTree = "<group>";
+		};
+		8ED3D0FC25D2CED400E2483A /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				8ED3D11C25D2DCF600E2483A /* ProductCollectionViewCell.swift */,
+				8ED3D11B25D2DCF600E2483A /* ProductCollectionViewCell.xib */,
+				8ED3D11D25D2DCF600E2483A /* StoreDetailViewController.swift */,
+				8ED3D11A25D2DCF600E2483A /* StoreDetailViewController.xib */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 		C3C7DF86D0920674A228C355 /* Frameworks */ = {
@@ -400,7 +420,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED3D11E25D2DCF600E2483A /* StoreDetailViewController.xib in Resources */,
 				0CC786AE25BF3B3200181173 /* LaunchScreen.storyboard in Resources */,
+				8ED3D11F25D2DCF600E2483A /* ProductCollectionViewCell.xib in Resources */,
 				0CC786E725BF832400181173 /* StepViewController.xib in Resources */,
 				0CC786DB25BF5ACA00181173 /* ProfileViewController.xib in Resources */,
 				0C8B73C125C1E81C00D946F0 /* MapViewController.xib in Resources */,
@@ -537,6 +559,8 @@
 				8ED3D04C25C31A2500E2483A /* ConfettiViewController.swift in Sources */,
 				F86E997425C8AB38004D1D7A /* Config.swift in Sources */,
 				0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */,
+				8ED3D12025D2DCF600E2483A /* ProductCollectionViewCell.swift in Sources */,
+				8ED3D12125D2DCF600E2483A /* StoreDetailViewController.swift in Sources */,
 				0CC786D625BF409D00181173 /* UserFormViewController.swift in Sources */,
 				0CC786E625BF832400181173 /* StepViewController.swift in Sources */,
 			);
