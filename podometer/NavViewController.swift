@@ -38,13 +38,14 @@ class NavViewController: UITabBarController {
      func setupTabBar() {
         
         
-        let homeController = UINavigationController(rootViewController: UserFormViewController())
+        let homeController = UINavigationController(rootViewController: StepViewController())
         homeController.tabBarItem.image = UIImage(imageLiteralResourceName: "home")
         homeController.tabBarItem.title = "Aujourd'hui"
             
-        let detailController = UINavigationController(rootViewController:   UpgradeViewController.newInstance(badgeName: "lib_ac_badge_level_1", badgeText: "7 jours"))
-        detailController.tabBarItem.image = UIImage(imageLiteralResourceName: "leaderboard")
-        detailController.tabBarItem.title = "Rapport"
+        let detailController = UINavigationController(rootViewController: RoutingViewController())
+        //UpgradeViewController.newInstance(badgeName: "lib_ac_badge_level_1", badgeText: "7 jours")
+        detailController.tabBarItem.image = UIImage(imageLiteralResourceName: "map")
+        detailController.tabBarItem.title = "Parcours"
         
         let profileController = UINavigationController(rootViewController:  ProfileViewController())
         profileController.tabBarItem.image = UIImage(imageLiteralResourceName: "accunt")

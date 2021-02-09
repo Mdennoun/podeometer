@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C04F41725C9FD8F00373153 /* PodometerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04F41625C9FD8F00373153 /* PodometerModel.swift */; };
+		0C0905FE25D2CBC1002FA8CD /* RoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0905FD25D2CBC0002FA8CD /* RoutingViewController.swift */; };
 		0C8B73C025C1E81C00D946F0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */; };
 		0C8B73C125C1E81C00D946F0 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */; };
 		0C8B73C725C7010E00D946F0 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73C325C7010D00D946F0 /* CalenderView.swift */; };
@@ -70,6 +71,7 @@
 
 /* Begin PBXFileReference section */
 		0C04F41625C9FD8F00373153 /* PodometerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodometerModel.swift; sourceTree = "<group>"; };
+		0C0905FD25D2CBC0002FA8CD /* RoutingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingViewController.swift; sourceTree = "<group>"; };
 		0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		0C8B73C325C7010D00D946F0 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */,
 				0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */,
 				0C04F41625C9FD8F00373153 /* PodometerModel.swift */,
+				0C0905FD25D2CBC0002FA8CD /* RoutingViewController.swift */,
 			);
 			path = Mohamed;
 			sourceTree = "<group>";
@@ -550,6 +553,7 @@
 				8ED3D04625C3183800E2483A /* Confetti.swift in Sources */,
 				0C8B73C725C7010E00D946F0 /* CalenderView.swift in Sources */,
 				0C8B73C025C1E81C00D946F0 /* MapViewController.swift in Sources */,
+				0C0905FE25D2CBC1002FA8CD /* RoutingViewController.swift in Sources */,
 				0CC786A925BF3B2D00181173 /* podometer.xcdatamodeld in Sources */,
 				F86E998725C8B226004D1D7A /* Badge.swift in Sources */,
 				0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */,
