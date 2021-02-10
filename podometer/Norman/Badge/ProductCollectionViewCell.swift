@@ -11,10 +11,12 @@ import UIKit
 class ProductCollectionViewCell: UICollectionViewCell {
     
     
-    @IBOutlet var photoProduct: UIImageView!
-    @IBOutlet var productName: UILabel!
-    @IBOutlet var productPrice: UILabel!
-    @IBOutlet var productDispo: UILabel!
+
+    @IBOutlet weak var photoProduct: UIImageView!
+    @IBOutlet weak var photoLock: UIImageView!
+    @IBOutlet weak var xpBar: UIProgressView!
+    
+    
     
     
     override func awakeFromNib() {

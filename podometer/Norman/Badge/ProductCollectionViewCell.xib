@@ -20,23 +20,41 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="COLLECTION_CELL_PRODUCT_IDENTIFER" image="product" translatesAutoresizingMaskIntoConstraints="NO" id="QgC-vt-r7M">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                     </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-Wv-wvu">
+                        <rect key="frame" x="140" y="140" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="Mji-o0-AE1"/>
+                            <constraint firstAttribute="width" constant="60" id="iAW-xp-QpU"/>
+                        </constraints>
+                    </imageView>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="I8A-XD-iwn">
+                        <rect key="frame" x="20" y="20" width="160" height="4"/>
+                    </progressView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
+                <constraint firstItem="Gat-Wv-wvu" firstAttribute="leading" secondItem="I8A-XD-iwn" secondAttribute="trailing" constant="-40" id="Fys-yv-qcY"/>
+                <constraint firstAttribute="bottom" secondItem="Gat-Wv-wvu" secondAttribute="bottom" id="Umb-h8-El7"/>
                 <constraint firstItem="QgC-vt-r7M" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VRt-NU-gkP"/>
                 <constraint firstAttribute="trailing" secondItem="QgC-vt-r7M" secondAttribute="trailing" id="Z5A-mp-sR5"/>
+                <constraint firstItem="I8A-XD-iwn" firstAttribute="centerX" secondItem="QgC-vt-r7M" secondAttribute="centerX" id="fe2-JZ-TI5"/>
                 <constraint firstItem="QgC-vt-r7M" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oyh-fj-ulK"/>
+                <constraint firstAttribute="trailing" secondItem="Gat-Wv-wvu" secondAttribute="trailing" id="uQF-Px-K18"/>
+                <constraint firstItem="I8A-XD-iwn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="wJf-cw-rb6"/>
                 <constraint firstAttribute="bottom" secondItem="QgC-vt-r7M" secondAttribute="bottom" id="xbd-EJ-mLT"/>
             </constraints>
             <size key="customSize" width="200" height="199"/>
             <connections>
-                <outlet property="photoProduct" destination="QgC-vt-r7M" id="bqZ-TF-jS0"/>
+                <outlet property="photoLock" destination="Gat-Wv-wvu" id="Ee5-4U-wco"/>
+                <outlet property="photoProduct" destination="QgC-vt-r7M" id="x3M-tn-VzH"/>
+                <outlet property="xpBar" destination="I8A-XD-iwn" id="Khl-Gp-bhx"/>
             </connections>
             <point key="canvasLocation" x="81.159420289855078" y="102.45535714285714"/>
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="lock" width="512" height="512"/>
         <image name="product" width="1816" height="1262"/>
     </resources>
 </document>

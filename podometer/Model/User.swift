@@ -117,20 +117,21 @@ class User: NSManagedObject {
     }
     
     
-    /*
-    static func checkLevel() ->Bool {
+    static func getBadgeLevel() ->[Badge] {
+        
+          let step = 200000
+          return Config.badgeLevels.filter {$0.number < step}
+      }
+    
+  /*  static func getBadgeLevel() ->[Badge] {
         guard let user = User.all.first else {
-            return false
+            return []
         }
         let step = user.total_step
-        let lvl = user.curlevel
-        
-        return Config.level[Int(lvl)] <= Int(step) ? true : false
-    }
+        return Config.badgeLevels.filter {$0.number < step}
+    } */
     
-    */
-    
-    static func checkBadgeDay() ->Bool {
+   /* static func getBadgeDay() ->Bool {
         let dateInstall = Date.getInstallationDate()
         let curDate = Date()
         guard let totalDay = curDate.fullDistance(from: dateInstall, resultIn: .day) else {
@@ -138,37 +139,45 @@ class User: NSManagedObject {
         }
         let badges = Config.badgeDays.filter {$0.number < totalDay}
         return badges.isEmpty ? false : true
+    } */
+    
+    static func getBadgeDay() ->[Badge] {
+        let totalDay = 105
+        let badges = Config.badgeDays.filter {$0.number < totalDay}
+        return badges
     }
     
-    static func checkDistanceTotal() -> Bool {
+    static func getBadgeDistance() -> [Badge] {
+      
+        let curDist = 500
+        let badgeDist = Config.badgeDistance.filter {$0.number < curDist}
+        return badgeDist
+    }
+    
+  /*  static func getBadgeDistance() -> Bool {
         guard let user = User.all.first else {
             return false
         }
         let curDist = user.total_distance
         let badgeDist = Config.badgeDistance.filter {$0.number < curDist}
         return badgeDist.isEmpty ? false : true
-    }
+    } */
     
-    static func checkBadgeStep() -> Bool {
+   /* static func getBadgeStep() -> [Badge] {
         guard let todaySteps = PodometerModel.todayData()?.step else {
             return false
         }
         let badgeStep = Config.badgeSteps.filter {$0.number < Int(truncating: todaySteps)}
         return badgeStep.isEmpty ? false : true
-    }
+    }*/
     
     
     
-  
-    
-    static func setBadgeStep() -> [Badge] {
-        guard let todaySteps = PodometerModel.todayData()?.step else {
-            return []
-        }
-        let badgeStep = Config.badgeSteps.filter {$0.number < Int(truncating: todaySteps)}
+    static func getBadgeStep() -> [Badge] {
+        let todaySteps = 25000
+        let badgeStep = Config.badgeSteps.filter {$0.number < todaySteps}
         return badgeStep
     }
-    
 
     
 }
