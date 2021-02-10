@@ -24,7 +24,7 @@ class StepViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+       
         DispatchQueue.main.async{
                    
             guard let data = PodometerModel.todayData() else {

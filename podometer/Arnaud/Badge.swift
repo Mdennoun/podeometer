@@ -7,15 +7,19 @@
 //
 
 import Foundation
+import UIKit
 
 class Badge {
     let number : Int
     let text : String
+    let image : UIImage
 
 
-    init(number: Int, text: String) {
+    init(number: Int, text: String, image: UIImage ) {
         self.number = number
         self.text = text
+        self.image = image
+
     }
 
 }
