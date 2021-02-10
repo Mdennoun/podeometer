@@ -40,8 +40,7 @@ class Config {
                                       Badge(number: 180,text: "180 Jours !", image: UIImage(named: "lib_ac_badge_days_fg_6")!),
                                       Badge(number: 365, text: "365 Jours !!", image: UIImage(named: "lib_ac_badge_days_fg_7")!)]
 
-    static let badgeSteps: [Badge] = [Badge(number: 3000, text: "Loin du canapé", image: UIImage(named: "step_badge_0")!),
-                                      Badge(number: 7000, text: "Rester en forme",image: UIImage(named: "step_badge_1")!),
+    static let badgeSteps: [Badge] = [Badge(number: 7000, text: "Rester en forme",image: UIImage(named: "step_badge_1")!),
                                       Badge(number: 10000,text: "Journée saine",image: UIImage(named: "step_badge_2")!),
                                       Badge(number: 14000,text: "Journée minceur",image: UIImage(named: "step_badge_3")!),
                                       Badge(number: 20000, text: "Randonner",image: UIImage(named: "step_badge_4")!),
