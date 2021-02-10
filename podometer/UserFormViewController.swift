@@ -42,7 +42,7 @@ class UserFormViewController: UIViewController {
         }
         let user = User.new(named: userPseudo, age: Int32(age), height: height, weight: weight)
         User.updateOne(user: user)
-        self.navigationController?.pushViewController(ProfileViewController(), animated: true)
+        
         
     }
     
