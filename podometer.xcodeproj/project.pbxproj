@@ -14,6 +14,8 @@
 		0C8B73CC25C7090100D946F0 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73CB25C7090100D946F0 /* UIApplication.swift */; };
 		0C8B73CE25C70AC400D946F0 /* UserFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */; };
 		0C9A28DB25D56B3F006184BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9A28DA25D56B3F006184BE /* Assets.xcassets */; };
+		0C9A28E025D59C00006184BE /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9A28DE25D59C00006184BE /* CalendarViewController.xib */; };
+		0C9A28E125D59C00006184BE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A28DF25D59C00006184BE /* CalendarViewController.swift */; };
 		0CA3DA1425C763B7009B441E /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */; };
 		0CA3DA1525C763B7009B441E /* UpgradeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */; };
 		0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC7869E25BF3B2D00181173 /* AppDelegate.swift */; };
@@ -42,8 +44,6 @@
 		F86E997425C8AB38004D1D7A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E997325C8AB38004D1D7A /* Config.swift */; };
 		F86E998725C8B226004D1D7A /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E998625C8B226004D1D7A /* Badge.swift */; };
 		F86E998F25C8B7DC004D1D7A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E998E25C8B7DC004D1D7A /* Date.swift */; };
-		F8FF103525D2C47D00721438 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF103325D2C47D00721438 /* CalendarViewController.swift */; };
-		F8FF103625D2C47D00721438 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FF103425D2C47D00721438 /* CalendarViewController.xib */; };
 		F8FF103C25D2CE7E00721438 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF103A25D2CE7E00721438 /* CalendarCollectionViewCell.swift */; };
 		F8FF103D25D2CE7E00721438 /* CalendarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FF103B25D2CE7E00721438 /* CalendarCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -73,6 +73,8 @@
 		0C8B73CB25C7090100D946F0 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserFormViewController.xib; sourceTree = "<group>"; };
 		0C9A28DA25D56B3F006184BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C9A28DE25D59C00006184BE /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		0C9A28DF25D59C00006184BE /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeViewController.swift; sourceTree = "<group>"; };
 		0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpgradeViewController.xib; sourceTree = "<group>"; };
 		0CC7869B25BF3B2D00181173 /* podometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,8 +113,6 @@
 		F86E997325C8AB38004D1D7A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		F86E998625C8B226004D1D7A /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		F86E998E25C8B7DC004D1D7A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
-		F8FF103325D2C47D00721438 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		F8FF103425D2C47D00721438 /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
 		F8FF103A25D2CE7E00721438 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
 		F8FF103B25D2CE7E00721438 /* CalendarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -287,8 +287,8 @@
 		F8FF103225D2C46400721438 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
-				F8FF103325D2C47D00721438 /* CalendarViewController.swift */,
-				F8FF103425D2C47D00721438 /* CalendarViewController.xib */,
+				0C9A28DF25D59C00006184BE /* CalendarViewController.swift */,
+				0C9A28DE25D59C00006184BE /* CalendarViewController.xib */,
 				F8FF103A25D2CE7E00721438 /* CalendarCollectionViewCell.swift */,
 				F8FF103B25D2CE7E00721438 /* CalendarCollectionViewCell.xib */,
 			);
@@ -411,8 +411,8 @@
 				0CC786E725BF832400181173 /* StepViewController.xib in Resources */,
 				0CC786DB25BF5ACA00181173 /* ProfileViewController.xib in Resources */,
 				0C8B73C125C1E81C00D946F0 /* MapViewController.xib in Resources */,
+				0C9A28E025D59C00006184BE /* CalendarViewController.xib in Resources */,
 				0C8B73CE25C70AC400D946F0 /* UserFormViewController.xib in Resources */,
-				F8FF103625D2C47D00721438 /* CalendarViewController.xib in Resources */,
 				8ED3D04D25C31A2500E2483A /* ConfettiViewController.xib in Resources */,
 				0CA3DA1525C763B7009B441E /* UpgradeViewController.xib in Resources */,
 			);
@@ -523,8 +523,8 @@
 				F86E998F25C8B7DC004D1D7A /* Date.swift in Sources */,
 				F8FF103C25D2CE7E00721438 /* CalendarCollectionViewCell.swift in Sources */,
 				0CC786DA25BF5ACA00181173 /* ProfileViewController.swift in Sources */,
-				F8FF103525D2C47D00721438 /* CalendarViewController.swift in Sources */,
 				0CC786DD25BF687A00181173 /* NavViewController.swift in Sources */,
+				0C9A28E125D59C00006184BE /* CalendarViewController.swift in Sources */,
 				0CA3DA1425C763B7009B441E /* UpgradeViewController.swift in Sources */,
 				8ED3D04525C3183800E2483A /* Lanceur.swift in Sources */,
 				0C04F41725C9FD8F00373153 /* PodometerModel.swift in Sources */,

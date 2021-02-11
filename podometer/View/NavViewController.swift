@@ -66,7 +66,7 @@ class NavViewController: UITabBarController {
      func setupTabBar() {
         
         
-        let homeController = ConfettiViewController()
+        let homeController = CalendarViewController()
         homeController.tabBarItem.image = UIImage(imageLiteralResourceName: "home")
         homeController.tabBarItem.title = "Aujourd'hui"
             
