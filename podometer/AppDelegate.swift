@@ -34,6 +34,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = window
         return true
     }
+    
+    func applicationWillResignActive(_ application: UIApplication) {
+        //will go background
+    }
 
 
     // MARK: - Core Data stack
