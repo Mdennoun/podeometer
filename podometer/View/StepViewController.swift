@@ -27,20 +27,16 @@ class StepViewController: UIViewController {
        
         DispatchQueue.main.async{
                    
-            guard let data = PodometerModel.todayData() else {
-            return
-                        
-        }
-
-                    
-        self.distence.text = "Distance : \(data.distence)"
-        self.step.text = "numberOfSteps : \(data.step)"
-        self.floorAscended.text = "floorsAscended : \(data.floorAscended)"
-        self.floorDescended.text = "floorsDescended : \(data.floorDescended)"
-        self.curCadence.text = "currentCadence :  0"
-        self.curPace.text = "currentPace : 0"
-        self.startDate.text = "startDate : \(data.startDate)"
-        self.endDate.text = "endDate : \(data.endDate)"
+            guard let data = PodometerModel.todayData() else {return }
+            
+            self.distence.text = "Distance : \(data.distence)"
+            self.step.text = "numberOfSteps : \(data.step)"
+            self.floorAscended.text = "floorsAscended : \(data.floorAscended)"
+            self.floorDescended.text = "floorsDescended : \(data.floorDescended)"
+            self.curCadence.text = "currentCadence :  0"
+            self.curPace.text = "currentPace : 0"
+            self.startDate.text = "startDate : \(data.startDate)"
+            self.endDate.text = "endDate : \(data.endDate)"
         
         
         }

@@ -63,6 +63,11 @@ class User: NSManagedObject {
         }
     
      func calculIMC() -> Double {
+        
+        if self.height == 0 || self.weight == 0 {
+            return 0
+        }
+        
         return self.weight / ((self.height / 100) * (self.height / 100))
     }
     

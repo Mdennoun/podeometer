@@ -11,18 +11,14 @@
 		0C0905FE25D2CBC1002FA8CD /* RoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0905FD25D2CBC0002FA8CD /* RoutingViewController.swift */; };
 		0C8B73C025C1E81C00D946F0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */; };
 		0C8B73C125C1E81C00D946F0 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */; };
-		0C8B73C725C7010E00D946F0 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73C325C7010D00D946F0 /* CalenderView.swift */; };
-		0C8B73C825C7010E00D946F0 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73C425C7010D00D946F0 /* MonthView.swift */; };
-		0C8B73C925C7010E00D946F0 /* CalendarFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73C525C7010D00D946F0 /* CalendarFullViewController.swift */; };
-		0C8B73CA25C7010E00D946F0 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73C625C7010D00D946F0 /* WeekdaysView.swift */; };
 		0C8B73CC25C7090100D946F0 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B73CB25C7090100D946F0 /* UIApplication.swift */; };
 		0C8B73CE25C70AC400D946F0 /* UserFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */; };
+		0C9A28DB25D56B3F006184BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9A28DA25D56B3F006184BE /* Assets.xcassets */; };
 		0CA3DA1425C763B7009B441E /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */; };
 		0CA3DA1525C763B7009B441E /* UpgradeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */; };
 		0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC7869E25BF3B2D00181173 /* AppDelegate.swift */; };
 		0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786A025BF3B2D00181173 /* SceneDelegate.swift */; };
 		0CC786A925BF3B2D00181173 /* podometer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786A725BF3B2D00181173 /* podometer.xcdatamodeld */; };
-		0CC786AB25BF3B3200181173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786AA25BF3B3200181173 /* Assets.xcassets */; };
 		0CC786AE25BF3B3200181173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786AC25BF3B3200181173 /* LaunchScreen.storyboard */; };
 		0CC786B925BF3B3200181173 /* podometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786B825BF3B3200181173 /* podometerTests.swift */; };
 		0CC786C425BF3B3200181173 /* podometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786C325BF3B3200181173 /* podometerUITests.swift */; };
@@ -33,15 +29,11 @@
 		0CC786DD25BF687A00181173 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786DC25BF687A00181173 /* NavViewController.swift */; };
 		0CC786E625BF832400181173 /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786E025BF832400181173 /* StepViewController.swift */; };
 		0CC786E725BF832400181173 /* StepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786E125BF832400181173 /* StepViewController.xib */; };
-		0CC786E825BF832400181173 /* MockStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC786E325BF832400181173 /* MockStepViewController.xib */; };
-		0CC786E925BF832400181173 /* MockStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC786E425BF832400181173 /* MockStepViewController.swift */; };
 		62BEBF03022D1D44DA65974E /* Pods_podometer_podometerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */; };
 		8ED3D04525C3183800E2483A /* Lanceur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D04225C3183800E2483A /* Lanceur.swift */; };
 		8ED3D04625C3183800E2483A /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D04325C3183800E2483A /* Confetti.swift */; };
 		8ED3D04C25C31A2500E2483A /* ConfettiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D04A25C31A2500E2483A /* ConfettiViewController.swift */; };
 		8ED3D04D25C31A2500E2483A /* ConfettiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */; };
-		8ED3D07525C3729A00E2483A /* IMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D07325C3729A00E2483A /* IMCViewController.swift */; };
-		8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D07425C3729A00E2483A /* IMCViewController.xib */; };
 		8ED3D11E25D2DCF600E2483A /* StoreDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D11A25D2DCF600E2483A /* StoreDetailViewController.xib */; };
 		8ED3D11F25D2DCF600E2483A /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3D11B25D2DCF600E2483A /* ProductCollectionViewCell.xib */; };
 		8ED3D12025D2DCF600E2483A /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3D11C25D2DCF600E2483A /* ProductCollectionViewCell.swift */; };
@@ -78,19 +70,15 @@
 		0C0905FD25D2CBC0002FA8CD /* RoutingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingViewController.swift; sourceTree = "<group>"; };
 		0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		0C8B73C325C7010D00D946F0 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
-		0C8B73C425C7010D00D946F0 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
-		0C8B73C525C7010D00D946F0 /* CalendarFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarFullViewController.swift; sourceTree = "<group>"; };
-		0C8B73C625C7010D00D946F0 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
 		0C8B73CB25C7090100D946F0 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserFormViewController.xib; sourceTree = "<group>"; };
+		0C9A28DA25D56B3F006184BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeViewController.swift; sourceTree = "<group>"; };
 		0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpgradeViewController.xib; sourceTree = "<group>"; };
 		0CC7869B25BF3B2D00181173 /* podometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC7869E25BF3B2D00181173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CC786A025BF3B2D00181173 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0CC786A825BF3B2D00181173 /* podometer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = podometer.xcdatamodel; sourceTree = "<group>"; };
-		0CC786AA25BF3B3200181173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC786AD25BF3B3200181173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC786AF25BF3B3200181173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CC786B425BF3B3200181173 /* podometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,8 +94,6 @@
 		0CC786DC25BF687A00181173 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 		0CC786E025BF832400181173 /* StepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
 		0CC786E125BF832400181173 /* StepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepViewController.xib; sourceTree = "<group>"; };
-		0CC786E325BF832400181173 /* MockStepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MockStepViewController.xib; sourceTree = "<group>"; };
-		0CC786E425BF832400181173 /* MockStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockStepViewController.swift; sourceTree = "<group>"; };
 		3ECDD015461BF33F1D342ECA /* Pods-podometer-podometerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer-podometerUITests.release.xcconfig"; path = "Target Support Files/Pods-podometer-podometerUITests/Pods-podometer-podometerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4E1A51702CC41360F05D92DC /* Pods-podometer-podometerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podometer-podometerUITests.debug.xcconfig"; path = "Target Support Files/Pods-podometer-podometerUITests/Pods-podometer-podometerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		68C0D8B977FF2A6D95BDAADA /* Pods_podometer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podometer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,8 +101,6 @@
 		8ED3D04325C3183800E2483A /* Confetti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
 		8ED3D04A25C31A2500E2483A /* ConfettiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiViewController.swift; sourceTree = "<group>"; };
 		8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfettiViewController.xib; sourceTree = "<group>"; };
-		8ED3D07325C3729A00E2483A /* IMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCViewController.swift; sourceTree = "<group>"; };
-		8ED3D07425C3729A00E2483A /* IMCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMCViewController.xib; sourceTree = "<group>"; };
 		8ED3D11A25D2DCF600E2483A /* StoreDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreDetailViewController.xib; sourceTree = "<group>"; };
 		8ED3D11B25D2DCF600E2483A /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
 		8ED3D11C25D2DCF600E2483A /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -160,15 +144,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C8B73C225C7010D00D946F0 /* calendar */ = {
+		0C9A28DC25D56CA3006184BE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0C8B73C325C7010D00D946F0 /* CalenderView.swift */,
-				0C8B73C425C7010D00D946F0 /* MonthView.swift */,
-				0C8B73C525C7010D00D946F0 /* CalendarFullViewController.swift */,
-				0C8B73C625C7010D00D946F0 /* WeekdaysView.swift */,
+				0CC786DC25BF687A00181173 /* NavViewController.swift */,
+				0C9A28DD25D56D43006184BE /* Confetti */,
+				0CC786E025BF832400181173 /* StepViewController.swift */,
+				0CC786E125BF832400181173 /* StepViewController.xib */,
+				0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */,
+				0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */,
+				0C0905FD25D2CBC0002FA8CD /* RoutingViewController.swift */,
+				0CC786D425BF409D00181173 /* UserFormViewController.swift */,
+				0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */,
+				0CC786D825BF5ACA00181173 /* ProfileViewController.swift */,
+				0CC786D925BF5ACA00181173 /* ProfileViewController.xib */,
+				0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */,
+				0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */,
+				F8FF103225D2C46400721438 /* Calendar */,
+				8ED3D0FC25D2CED400E2483A /* Badge */,
 			);
-			path = calendar;
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C9A28DD25D56D43006184BE /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				8ED3D04A25C31A2500E2483A /* ConfettiViewController.swift */,
+				8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */,
+			);
+			path = Confetti;
 			sourceTree = "<group>";
 		};
 		0CC7869225BF3B2D00181173 = {
@@ -196,23 +200,15 @@
 		0CC7869D25BF3B2D00181173 /* podometer */ = {
 			isa = PBXGroup;
 			children = (
-				F86E996325C8A626004D1D7A /* Arnaud */,
-				0CC786DE25BF832300181173 /* Mohamed */,
-				0CC786E225BF832400181173 /* Norman */,
-				0CC786DC25BF687A00181173 /* NavViewController.swift */,
+				F86E997325C8AB38004D1D7A /* Config.swift */,
+				0C9A28DC25D56CA3006184BE /* View */,
 				0CC786D125BF3D4800181173 /* Model */,
 				0CC7869E25BF3B2D00181173 /* AppDelegate.swift */,
 				0CC786A025BF3B2D00181173 /* SceneDelegate.swift */,
-				0CC786AA25BF3B3200181173 /* Assets.xcassets */,
 				0CC786AC25BF3B3200181173 /* LaunchScreen.storyboard */,
 				0CC786AF25BF3B3200181173 /* Info.plist */,
+				0C9A28DA25D56B3F006184BE /* Assets.xcassets */,
 				0CC786A725BF3B2D00181173 /* podometer.xcdatamodeld */,
-				0CC786D425BF409D00181173 /* UserFormViewController.swift */,
-				0C8B73CD25C70AC400D946F0 /* UserFormViewController.xib */,
-				0CC786D825BF5ACA00181173 /* ProfileViewController.swift */,
-				0CC786D925BF5ACA00181173 /* ProfileViewController.xib */,
-				0CA3DA1225C763B7009B441E /* UpgradeViewController.swift */,
-				0CA3DA1325C763B7009B441E /* UpgradeViewController.xib */,
 			);
 			path = podometer;
 			sourceTree = "<group>";
@@ -238,37 +234,14 @@
 		0CC786D125BF3D4800181173 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8ED3D03D25C317DB00E2483A /* Confetti */,
+				0C04F41625C9FD8F00373153 /* PodometerModel.swift */,
+				F86E998E25C8B7DC004D1D7A /* Date.swift */,
+				F86E998625C8B226004D1D7A /* Badge.swift */,
 				0CC786D225BF3D9400181173 /* User.swift */,
 				0C8B73CB25C7090100D946F0 /* UIApplication.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		0CC786DE25BF832300181173 /* Mohamed */ = {
-			isa = PBXGroup;
-			children = (
-				0C8B73C225C7010D00D946F0 /* calendar */,
-				0CC786E025BF832400181173 /* StepViewController.swift */,
-				0CC786E125BF832400181173 /* StepViewController.xib */,
-				0C8B73BE25C1E81C00D946F0 /* MapViewController.swift */,
-				0C8B73BF25C1E81C00D946F0 /* MapViewController.xib */,
-				0C04F41625C9FD8F00373153 /* PodometerModel.swift */,
-				0C0905FD25D2CBC0002FA8CD /* RoutingViewController.swift */,
-			);
-			path = Mohamed;
-			sourceTree = "<group>";
-		};
-		0CC786E225BF832400181173 /* Norman */ = {
-			isa = PBXGroup;
-			children = (
-				8ED3D0FC25D2CED400E2483A /* Badge */,
-				0CC786E425BF832400181173 /* MockStepViewController.swift */,
-				0CC786E325BF832400181173 /* MockStepViewController.xib */,
-				8ED3D07325C3729A00E2483A /* IMCViewController.swift */,
-				8ED3D07425C3729A00E2483A /* IMCViewController.xib */,
-				8ED3D03D25C317DB00E2483A /* Confetti */,
-			);
-			path = Norman;
 			sourceTree = "<group>";
 		};
 		501A5ED625AB82DBCEDB62ED /* Pods */ = {
@@ -287,8 +260,6 @@
 			children = (
 				8ED3D04325C3183800E2483A /* Confetti.swift */,
 				8ED3D04225C3183800E2483A /* Lanceur.swift */,
-				8ED3D04A25C31A2500E2483A /* ConfettiViewController.swift */,
-				8ED3D04B25C31A2500E2483A /* ConfettiViewController.xib */,
 			);
 			path = Confetti;
 			sourceTree = "<group>";
@@ -311,17 +282,6 @@
 				BD4056F955DBE4242BEC0FB0 /* Pods_podometer_podometerUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F86E996325C8A626004D1D7A /* Arnaud */ = {
-			isa = PBXGroup;
-			children = (
-				F8FF103225D2C46400721438 /* Calendar */,
-				F86E997325C8AB38004D1D7A /* Config.swift */,
-				F86E998625C8B226004D1D7A /* Badge.swift */,
-				F86E998E25C8B7DC004D1D7A /* Date.swift */,
-			);
-			path = Arnaud;
 			sourceTree = "<group>";
 		};
 		F8FF103225D2C46400721438 /* Calendar */ = {
@@ -447,16 +407,14 @@
 				8ED3D11E25D2DCF600E2483A /* StoreDetailViewController.xib in Resources */,
 				0CC786AE25BF3B3200181173 /* LaunchScreen.storyboard in Resources */,
 				8ED3D11F25D2DCF600E2483A /* ProductCollectionViewCell.xib in Resources */,
+				0C9A28DB25D56B3F006184BE /* Assets.xcassets in Resources */,
 				0CC786E725BF832400181173 /* StepViewController.xib in Resources */,
 				0CC786DB25BF5ACA00181173 /* ProfileViewController.xib in Resources */,
 				0C8B73C125C1E81C00D946F0 /* MapViewController.xib in Resources */,
 				0C8B73CE25C70AC400D946F0 /* UserFormViewController.xib in Resources */,
 				F8FF103625D2C47D00721438 /* CalendarViewController.xib in Resources */,
-				0CC786E825BF832400181173 /* MockStepViewController.xib in Resources */,
 				8ED3D04D25C31A2500E2483A /* ConfettiViewController.xib in Resources */,
 				0CA3DA1525C763B7009B441E /* UpgradeViewController.xib in Resources */,
-				0CC786AB25BF3B3200181173 /* Assets.xcassets in Resources */,
-				8ED3D07625C3729A00E2483A /* IMCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,19 +521,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86E998F25C8B7DC004D1D7A /* Date.swift in Sources */,
-				8ED3D07525C3729A00E2483A /* IMCViewController.swift in Sources */,
 				F8FF103C25D2CE7E00721438 /* CalendarCollectionViewCell.swift in Sources */,
 				0CC786DA25BF5ACA00181173 /* ProfileViewController.swift in Sources */,
-				0C8B73CA25C7010E00D946F0 /* WeekdaysView.swift in Sources */,
-				0C8B73C925C7010E00D946F0 /* CalendarFullViewController.swift in Sources */,
 				F8FF103525D2C47D00721438 /* CalendarViewController.swift in Sources */,
 				0CC786DD25BF687A00181173 /* NavViewController.swift in Sources */,
 				0CA3DA1425C763B7009B441E /* UpgradeViewController.swift in Sources */,
 				8ED3D04525C3183800E2483A /* Lanceur.swift in Sources */,
-				0CC786E925BF832400181173 /* MockStepViewController.swift in Sources */,
 				0C04F41725C9FD8F00373153 /* PodometerModel.swift in Sources */,
 				8ED3D04625C3183800E2483A /* Confetti.swift in Sources */,
-				0C8B73C725C7010E00D946F0 /* CalenderView.swift in Sources */,
 				0C8B73C025C1E81C00D946F0 /* MapViewController.swift in Sources */,
 				0C0905FE25D2CBC1002FA8CD /* RoutingViewController.swift in Sources */,
 				0CC786A925BF3B2D00181173 /* podometer.xcdatamodeld in Sources */,
@@ -583,7 +536,6 @@
 				0CC7869F25BF3B2D00181173 /* AppDelegate.swift in Sources */,
 				0C8B73CC25C7090100D946F0 /* UIApplication.swift in Sources */,
 				0CC786D325BF3D9400181173 /* User.swift in Sources */,
-				0C8B73C825C7010E00D946F0 /* MonthView.swift in Sources */,
 				8ED3D04C25C31A2500E2483A /* ConfettiViewController.swift in Sources */,
 				F86E997425C8AB38004D1D7A /* Config.swift in Sources */,
 				0CC786A125BF3B2D00181173 /* SceneDelegate.swift in Sources */,

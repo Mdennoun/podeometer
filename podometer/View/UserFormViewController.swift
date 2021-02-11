@@ -41,6 +41,7 @@ class UserFormViewController: UIViewController {
                 return
         }
         let user = User.new(named: userPseudo, age: Int32(age), height: height, weight: weight)
+        user.curimc =  user.calculIMC()
         User.updateOne(user: user)
         
         

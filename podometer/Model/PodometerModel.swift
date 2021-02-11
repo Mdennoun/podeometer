@@ -34,10 +34,10 @@ class PodometerModel {
     
     static func todayData() -> PodometerModel? {
         
-        var podometer: PodometerModel?
+        var modele: PodometerModel?
         if CMPedometer.isStepCountingAvailable() {
             let calendar = Calendar.current
-            pedometer.queryPedometerData(from: calendar.startOfDay(for: Date()), to: Date()) { (data, error) in
+            self.pedometer.queryPedometerData(from: calendar.startOfDay(for: Date()), to: Date()) { (data, error) in
                
                 DispatchQueue.main.async{
                    
@@ -53,14 +53,14 @@ class PodometerModel {
 
                     
                     
-                    podometer = PodometerModel(distence: distence, step: step, floorAscended: floorAscended, floorDescended: floorDescended, startDate: startDate, endDate: endDate)
+                    modele = PodometerModel(distence: distence, step: step, floorAscended: floorAscended, floorDescended: floorDescended, startDate: startDate, endDate: endDate)
                     
                 }
                 
             }
         }
         
-        return podometer
+        return modele
     }
     
     static func data(startDate: Date, endDate: Date) -> PodometerModel? {
