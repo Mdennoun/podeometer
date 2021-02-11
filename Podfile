@@ -9,6 +9,7 @@ target 'podometer' do
   pod 'Charts'
   pod 'TinyConstraints'
   pod 'Layoutless'
+  pod 'DropDown'
   
   target 'podometerUITests' do
     # Pods for testing
